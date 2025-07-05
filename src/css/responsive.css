@@ -1,0 +1,51 @@
+body{
+    font-family: "Public Sans", sans-serif;
+    color: #ffffff;
+}
+
+ul.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+li p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+li span{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+li {
+    width: 335px;
+    height: 432px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+    padding-left: 22px;
+    padding-bottom: 20px;
+}
+
+li.rome{
+    background-image: url(../images/rome.png);
+}
+
+li.boat-at-sea{
+    background-image: url(../images/boat.png);
+}
+
+li.sand-and-sea{
+    background-image: url(../images/sand-and-sea.png);
+}
+
+li.starry-night{
+    background-image: url(../images/starry-night.png);
+}
+
